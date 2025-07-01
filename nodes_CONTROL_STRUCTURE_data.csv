@@ -1,0 +1,4 @@
+47244640256,CONTROL_STRUCTURE,-1,,"if (argc > 1 && strcmp(argv[1], ""42"") == 0) {
+    fprintf(stderr, ""It depends!\\n"");
+    exit(42);
+  }",3,IF,6,,,1,CASTIfStatement

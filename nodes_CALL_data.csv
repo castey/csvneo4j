@@ -1,0 +1,9 @@
+30064771072,CALL,-1,,"argc > 1 && strcmp(argv[1], ""42"") == 0",7,STATIC_DISPATCH,,6,<operator>.logicalAnd,<operator>.logicalAnd,,,1,,,ANY
+30064771073,CALL,1,,argc > 1,7,STATIC_DISPATCH,,6,<operator>.greaterThan,<operator>.greaterThan,,,1,,,ANY
+30064771074,CALL,2,,"strcmp(argv[1], ""42"") == 0",19,STATIC_DISPATCH,,6,<operator>.equals,<operator>.equals,,,2,,,ANY
+30064771075,CALL,1,,"strcmp(argv[1], ""42"")",19,STATIC_DISPATCH,,6,strcmp,strcmp,,,1,,,ANY
+30064771076,CALL,1,,argv[1],26,STATIC_DISPATCH,,6,<operator>.indirectIndexAccess,<operator>.indirectIndexAccess,,,1,,,ANY
+30064771077,CALL,-1,,"fprintf(stderr, ""It depends!\\n"")",5,STATIC_DISPATCH,,7,fprintf,fprintf,,,1,,,ANY
+30064771078,CALL,-1,,exit(42),5,STATIC_DISPATCH,,8,exit,exit,,,2,,,ANY
+30064771079,CALL,-1,,"printf(""What is the meaning of life?\\n"")",3,STATIC_DISPATCH,,10,printf,printf,,,2,,,ANY
+30064771080,CALL,-1,,exit(0),3,STATIC_DISPATCH,,11,exit,exit,,,3,,,ANY

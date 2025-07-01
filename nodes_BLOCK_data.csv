@@ -1,0 +1,22 @@
+25769803776,BLOCK,-1,,"{
+  if (argc > 1 && strcmp(argv[1], ""42"") == 0) {
+    fprintf(stderr, ""It depends!\\n"");
+    exit(42);
+  }
+  printf(""What is the meaning of life?\\n"");
+  exit(0);
+}",34,,5,,,3,,void
+25769803777,BLOCK,-1,,"{
+    fprintf(stderr, ""It depends!\\n"");
+    exit(42);
+  }",47,,6,,,2,,void
+25769803778,BLOCK,-1,,<empty>,1,,1,,,1,,ANY
+25769803779,BLOCK,-1,,<empty>,,,,,,1,,ANY
+25769803780,BLOCK,1,,<empty>,,,,,,1,,ANY
+25769803781,BLOCK,1,,<empty>,,,,,,1,,ANY
+25769803782,BLOCK,1,,<empty>,,,,,,1,,ANY
+25769803783,BLOCK,1,,<empty>,,,,,,1,,ANY
+25769803784,BLOCK,1,,<empty>,,,,,,1,,ANY
+25769803785,BLOCK,1,,<empty>,,,,,,1,,ANY
+25769803786,BLOCK,1,,<empty>,,,,,,1,,ANY
+25769803787,BLOCK,1,,<empty>,,,,,,1,,ANY
